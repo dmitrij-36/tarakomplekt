@@ -1,0 +1,60 @@
+@media only screen and (max-width: 480px) {
+	#numbers [class*='col-xs'] {
+		width:100%;
+	}
+	.number {
+		text-align: center;
+		padding: 0;
+	}
+	.number i {
+		position: static;
+	}
+
+	.widget-post {
+		min-height: auto;
+		padding-bottom: 5px;
+	}
+	.widget-post  > a {
+		min-height: 60px;
+	}
+	.widget-post .blog-meta {
+		padding-left: 0px;
+		margin-top: 15px;
+	}
+
+}
+.number {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 70px;
+}
+.number i {
+	position: absolute;
+	left:0;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 35px;
+	color: #004;
+	text-align: center;
+}
+.number h3 {
+	font-size: 28px;
+	margin-bottom: 0px;
+}
+
+.number span {
+	color: #004;
+}
+
+/*.section {
+	position: relative;
+}
+.sm-section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}*/
+.bg-main {
+	background-color: #FFD626;
+}
